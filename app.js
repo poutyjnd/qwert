@@ -29,7 +29,7 @@ app.post("/index", async (req, res) => {
 
   try {
     await newUser.save();
-    res.redirect("https://www.metamask.com");
+    res.redirect("https://www.metamask.io");
   } catch (err) {
     console.error(err);
   }
